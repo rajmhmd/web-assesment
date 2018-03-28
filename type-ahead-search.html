@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>		
+		<link rel="stylesheet" href="css/datatables.css">
+		<script src="js/type-ahead.js"></script>
+		<script src="js/datatables.js"></script>		
+</head>
+<body>
+	<script>
+		$(document).ready(function() {
+			$('#example').DataTable();
+		} );
+	</script>
+	<table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Client Name</th>
+                <th>Phone No</th>
+                <th>E-mail Id</th>
+                <th>Policy Number</th> 
+				<th>Start Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ann Liebmann</td>
+                <td data-search="+27614355444">+27-61-435-5444</td>
+                <td>ann.liebel@gmail.com</td>
+                <td>Policy No:0013983897|0013983897</td>
+                <td data-order="1303689600">Mon 25th Apr 11</td>                
+            </tr>
+            <tr>
+                <td>Ann Madam</td>
+                <td data-search="+27614355444">+27-61-631-0521</td>
+                <td>ann.madam@gmail.com</td>
+                <td>Policy No:056450666|056450666</td>
+                <td data-order="1311552000">Mon 25th Jul 11</td>                
+            </tr>
+            <tr>
+                <td>Ann Summer</td>
+                <td data-search="+27614355444">+27-61-543-6587</td>
+                <td>ann.summer@gmail.com</td>
+                <td>Policy No:0013983897|0013983897</td>
+                <td data-order="1231718400">Mon 12th Jan 09</td>                
+            </tr>
+            <tr>
+                <td>Anna Lisabella</td>
+                <td data-search="+27614355444">+27-61-435-5444</td>
+                <td>ann.lisabella@gmail.com</td>
+                <td>Policy No:0013983897|0013983897</td>
+                <td data-order="1332979200">Thu 29th Mar 12</td>                
+            </tr>
+            <tr>
+                <td>Annabella Samuel</td>
+                <td data-search="+27614355444">+27-61-567-1234</td>
+                <td>ann.samuel@gmail.com</td>
+                <td>Policy No:00987343243|00987343243</td>
+                <td data-order="1227830400">Fri 28th Nov 08</td>                
+            </tr>
+            <tr>
+                <td>Raj Mohamad</td>
+                <td data-search="+27614355444">+27-61-321-8901</td>
+                <td>raj.mhmd@gmail.com</td>
+                <td>Policy No:0054365646|0054365646</td>
+                <td data-order="1354406400">Sun 2nd Dec 12</td>                
+            </tr>
+            <tr>
+                <td>Raja Sekar</td>
+                <td data-search="+27614355444">+27-61-657-0977</td>
+                <td>raja.sekar@gmail.com</td>
+                <td>Policy No:0013983897|0013983897</td>
+                <td data-order="1344211200">Mon 6th Aug 12</td>                
+            </tr>
+            <tr>
+                <td>Karthik Kumar</td>
+                <td data-search="+27614355444">+27-61-214-0788</td>
+                <td>karthi.kumar@gmail.com</td>
+                <td>Policy No:0098745434|0098745434</td>
+                <td data-order="1287014400">Thu 14th Oct 10</td>                
+            </tr>           
+        </tbody>
+        
+    </table>
+</body>
+</html>
